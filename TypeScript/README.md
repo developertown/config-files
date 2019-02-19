@@ -14,6 +14,9 @@ yarn add --dev \
   
 # transpiling
 yarn add --dev \
+  @babel/core \
+  @babel/plugin-proposal-class-properties \
+  @babel/plugin-proposal-decorators \
   @babel/plugin-syntax-dynamic-import \
   @babel/plugin-transform-runtime \
   @babel/preset-env \
