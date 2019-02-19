@@ -5,6 +5,7 @@
 # linting
 yarn add --dev \
   eslint \
+  prettier \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   eslint-config-prettier \
