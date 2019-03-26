@@ -70,6 +70,13 @@ module.exports = {
         browser: false,
         node: true
       }
+    },
+    // type definitions
+    {
+      files: [
+        'types/**/*.ts'  
+      ],
+      rules: {},
     }
   ]
 };
