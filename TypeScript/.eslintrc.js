@@ -14,8 +14,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    "prettier/typescript",
-    "prettier/react"
+    "prettier/react",
   ],
 
   // 0 = off, 1 = warn, 2 = error
@@ -25,12 +24,9 @@ module.exports = {
 
     // typescript
     '@typescript-eslint/interface-name-prefix': 'error',
-    '@typescript-eslint/no-object-literal-type-assertion': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'off', // private fields are coming to native JS classes
     '@typescript-eslint/explicit-function-return-type': 'off', // TS is pretty good at inference
     '@typescript-eslint/no-use-before-define': 'off', // this doesn't matter for side-effect-free modules
-    '@typescript-eslint/no-empty-interface': 'off', // better to have conventions for react prop interfaces
-    '@typescript-eslint/no-unused-vars': 'error',
 
     // cleanliness
     'no-undef': 'off',
