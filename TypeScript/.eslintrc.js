@@ -23,7 +23,7 @@ module.exports = {
     "no-console": 'warn',
 
     // typescript
-    '@typescript-eslint/interface-name-prefix': 'error',
+    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     '@typescript-eslint/explicit-member-accessibility': 'off', // private fields are coming to native JS classes
     '@typescript-eslint/explicit-function-return-type': 'off', // TS is pretty good at inference
     '@typescript-eslint/no-use-before-define': 'off', // this doesn't matter for side-effect-free modules
